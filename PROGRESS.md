@@ -11,6 +11,7 @@ Running log for the unattended cloud build. A resumed session reads this first a
 |---|---|---|
 | Wed Sep 23 2026 · 10:34 PM EDT | 162.4 h | 0: kickoff, tools check |
 | Wed Sep 23 2026 · 10:47 PM EDT | 162.2 h | 2–3: research done, concept picked (All the Way Down) |
+| Wed Sep 23 2026 · 10:52 PM EDT | 162.1 h | 4: design direction (core sample / strata) |
 
 ## Phase plan (budgeted backwards, hackathon-win Phase 4 table)
 
@@ -34,7 +35,7 @@ In practice an agent session moves faster than this; the table is the ceiling, n
 - [x] 1. Tools check
 - [x] 2. Research: verify HACKATHON.md, 5–8 winner briefs, RESEARCH-BRIEF.md
 - [x] 3. Concept: siblings check, CONCEPTS.md (3 × rubric), CONCEPT.md pushed
-- [ ] 4. Design direction: PRODUCT.md + DESIGN.md
+- [x] 4. Design direction: PRODUCT.md + DESIGN.md
 - [ ] 5. Build: wow moment, demo path, the rest; Vitest + Playwright + CI; Pages live
 - [ ] 6. Quality: critique → audit → polish; full tests; live-URL headless pass
 - [ ] 7. Demo video: submission/video/demo.mp4 (3:00–5:00, captioned)
@@ -61,3 +62,10 @@ In practice an agent session moves faster than this; the table is the ceiling, n
 - **Concept picked:** **A. All the Way Down** (4.90), ahead of C. First Light (4.38) and B. Field Guide to Bugs (3.78). See `research/CONCEPTS.md`, `CONCEPT.md`.
 - **Key risk logged:** the AI policy. Mitigation: truthful disclosure, readable code, EXPLAIN-IT study guide, HANDOFF asks Rishik to personalise LEARNING.md and record the voiceover himself.
 - **Build log for LEARNING.md starts now:** `docs/BUILD-LOG.md` records real bugs and decisions as they happen (source for "field notes").
+
+### Phase 4 · Wed Sep 23 · 10:52 PM EDT · 162.1 h left
+- impeccable run from the fallback clone (`/tmp/skills/impeccable`). Its interview round was skipped because Rishik said he can't answer questions; PRODUCT.md marks every inferred fact.
+- `concept-seed` ran **degraded** (impeccable.style is egress-blocked, so no challengers or quality-bar boards). It assigned candidate 4 of my ordered list: **stratigraphic column / core sample**. Seed key b8631867.
+- The direction contract is in `.impeccable/surfaces/index-html.md`. The direction record and tokens are in `DESIGN.md`.
+- The world: each abstraction layer is a stratum in its official ICS/CGMW period colour (verified from pyrolite's `timecolors.csv`), with a borehole-log column as navigation. Type: Anybody (width compresses with depth), Public Sans, Fragment Mono. Every stratum's "first deposit" date was verified by web search (sources listed in DESIGN.md; ARCHITECTURE.md will carry the links).
+- Build path: code-led (no image generation in this environment).
