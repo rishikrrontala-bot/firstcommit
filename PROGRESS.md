@@ -1,0 +1,52 @@
+# PROGRESS: FirstCommit entry
+
+Running log for the unattended cloud build. A resumed session reads this first and continues from the last unchecked phase.
+
+**Deadline:** Wed Sep 30, 2026 · 5:00 PM EDT
+**Internal finish line (all deliverables done, ≥24 h before):** Tue Sep 29, 2026 · 5:00 PM EDT
+
+## Countdown log
+
+| When (ET) | Hours to deadline | Phase |
+|---|---|---|
+| Wed Sep 23 2026 · 10:34 PM EDT | 162.4 h | 0: kickoff, tools check |
+
+## Phase plan (budgeted backwards, hackathon-win Phase 4 table)
+
+Working budget = 162.4 h − 24 h safety margin = **~138 h** to the internal finish line.
+
+| Phase | Share | Budget | Must be done by (ET) |
+|---|---|---|---|
+| Research + concept (Phases 0–3) | pre-build | ~4 h | Thu Sep 24 · 3:00 AM |
+| Design direction (impeccable shape) | pre-build | ~2 h | Thu Sep 24 · 5:00 AM |
+| Core build: wow moment → demo path → rest | ~50% | ~60 h | Sat Sep 26 · 5:00 PM |
+| Quality passes (critique → audit → polish) + tests | (part of buffer) | ~10 h | Sun Sep 27 · 3:00 AM |
+| Demo video | ~20% | ~28 h | Mon Sep 28 · 7:00 AM |
+| Submission kit + docs | ~15% | ~21 h | Tue Sep 29 · 4:00 AM |
+| Buffer for the thing that breaks | ~15% | ~13 h | Tue Sep 29 · 5:00 PM |
+
+In practice an agent session moves faster than this; the table is the ceiling, not the target. Everything ships as early as it's ready.
+
+## Phases
+
+- [ ] 0. Kickoff: countdown, PROGRESS.md
+- [ ] 1. Tools check
+- [ ] 2. Research: verify HACKATHON.md, 5–8 winner briefs, RESEARCH-BRIEF.md
+- [ ] 3. Concept: siblings check, CONCEPTS.md (3 × rubric), CONCEPT.md pushed
+- [ ] 4. Design direction: PRODUCT.md + DESIGN.md
+- [ ] 5. Build: wow moment, demo path, the rest; Vitest + Playwright + CI; Pages live
+- [ ] 6. Quality: critique → audit → polish; full tests; live-URL headless pass
+- [ ] 7. Demo video: submission/video/demo.mp4 (3:00–5:00, captioned)
+- [ ] 8. Submission kit: DEVPOST.md, VIDEO-SCRIPT.md, gallery, deck.pdf, LEARNING.md, CHECKLIST.md, docs
+- [ ] 9. Ship: merge to main, verify live, HANDOFF.md
+
+## Log
+
+### Phase 0–1 · Wed Sep 23 · 10:34 PM EDT · 162.4 h left
+- Branch: `claude/hackathon-project-complete-vrnfie`. Repo had only the brief (CLAUDE.md, HACKATHON.md, PROMPT.md, hackathon-win skill, Pages workflow).
+- **Skills in this session:** `hackathon-win`, `dataviz`, `anthropic-skills:ui-demo`, `anthropic-skills:make-interfaces-feel-better`, `anthropic-skills:accessibility`, `anthropic-skills:web-design-cheatcode`, `anthropic-skills:3d-motion-site`.
+  **Missing → fallback (cloned to `/tmp/skills`, read SKILL.md directly):** `impeccable` (pbakaus/impeccable), `emil-design-skills:animate` + `emil-design-eng` (emilkowalski/skills), taste-skill (leonxlnx/taste-skill). `hypersite` is not in the session and not in the fallback repos; its job (marketing surface craft) is covered by impeccable + taste-skill + web-design-cheatcode.
+- **Runtime:** Node v22.22.2, npm 10.9.7. Playwright Chromium at `/opt/pw-browsers/chromium-1194`.
+- **ffmpeg:** none on the system; installed `imageio-ffmpeg` (ffmpeg 7.0.2 static, has libx264 + aac + libass `subtitles` filter) and symlinked to `/usr/local/bin/ffmpeg`.
+- **n8n:** `N8N_BASE_URL` is empty in this environment, so there is no n8n API access. Any n8n workflow ships as an importable `n8n/*.json` file with a HANDOFF step (only if the concept genuinely needs one).
+- 4 vCPU, 15 GB RAM, ~30 GB disk.
