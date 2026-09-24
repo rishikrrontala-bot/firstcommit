@@ -85,3 +85,11 @@ Next steps, in order:
 4. `src/engine/compiler.ts`: port CPython 3.11 codegen + CFG passes (constant folding from ast_opt.c; NEXT_BLOCK after jumps; optimize_basic_block with jump_thread only when line numbers match; clean_basic_block NOP rules; extend_block MAX_COPY_SIZE=4; mark_reachable; duplicate_exits_without_lineno; propagate_line_numbers; normalize_jumps FORWARD/BACKWARD; RESUME line 0; starts_line = line changes in address order).
 5. `src/engine/vm.ts` (execute with trace, 10k step limit), then `riscv.ts` (RV32IM encoder + emulator; goldens from `llvm-mc -triple=riscv32 -mattr=+m -show-encoding`), `gates.ts` (ripple-carry adder, event timing), `cmos.ts` (NAND), `pipeline.ts`.
 6. Vitest suites comparing against the goldens. Then the UI (strata), e2e, CI, Pages.
+
+### STOPPED on Rishik's request · Wed Sep 23 · 11:04 PM EDT · 161.9 h left
+Rishik asked for everything to be pushed at ~11:06 PM ET, and for work to stop there (his credits are low).
+
+State at stop:
+- Written but **not yet type-checked or tested** (work in progress): `src/engine/values.ts` (Python values, repr, arithmetic, comparisons, CPython error messages), `src/engine/lexer.ts` (port of `tokenize`), `src/engine/ast.ts` (nodes + `dump()` matching `ast.dump`), `src/engine/parser.ts` (recursive descent, CPython-style SyntaxError messages, f-strings, NotSupported errors for constructs outside the subset).
+- **Next session starts with:** `npm install`, then write `tests/lexer.test.ts` and `tests/parser.test.ts` against `tests/golden/*.json` (tokens, ast), run `npx tsc --noEmit` and `npx vitest run`, and fix until they match. Then continue from step 4 of the "Next steps" list above (compiler → VM → RISC-V → gates → pipeline → UI).
+- Everything else (research, concept, design, goldens, scaffold) is complete and pushed.
