@@ -1,0 +1,772 @@
+{
+ "python": "3.11.15",
+ "source": "nums = [3, 1, 4, 1, 5]\nprint(nums[0], nums[-1], len(nums))\nfor n in nums:\n    print(n * 2)\n",
+ "tokens": [
+  {
+   "type": "NAME",
+   "string": "nums",
+   "start": [
+    1,
+    0
+   ],
+   "end": [
+    1,
+    4
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "=",
+   "start": [
+    1,
+    5
+   ],
+   "end": [
+    1,
+    6
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "[",
+   "start": [
+    1,
+    7
+   ],
+   "end": [
+    1,
+    8
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "3",
+   "start": [
+    1,
+    8
+   ],
+   "end": [
+    1,
+    9
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ",",
+   "start": [
+    1,
+    9
+   ],
+   "end": [
+    1,
+    10
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "1",
+   "start": [
+    1,
+    11
+   ],
+   "end": [
+    1,
+    12
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ",",
+   "start": [
+    1,
+    12
+   ],
+   "end": [
+    1,
+    13
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "4",
+   "start": [
+    1,
+    14
+   ],
+   "end": [
+    1,
+    15
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ",",
+   "start": [
+    1,
+    15
+   ],
+   "end": [
+    1,
+    16
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "1",
+   "start": [
+    1,
+    17
+   ],
+   "end": [
+    1,
+    18
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ",",
+   "start": [
+    1,
+    18
+   ],
+   "end": [
+    1,
+    19
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "5",
+   "start": [
+    1,
+    20
+   ],
+   "end": [
+    1,
+    21
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "]",
+   "start": [
+    1,
+    21
+   ],
+   "end": [
+    1,
+    22
+   ]
+  },
+  {
+   "type": "NEWLINE",
+   "string": "\n",
+   "start": [
+    1,
+    22
+   ],
+   "end": [
+    1,
+    23
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "print",
+   "start": [
+    2,
+    0
+   ],
+   "end": [
+    2,
+    5
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "(",
+   "start": [
+    2,
+    5
+   ],
+   "end": [
+    2,
+    6
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "nums",
+   "start": [
+    2,
+    6
+   ],
+   "end": [
+    2,
+    10
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "[",
+   "start": [
+    2,
+    10
+   ],
+   "end": [
+    2,
+    11
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "0",
+   "start": [
+    2,
+    11
+   ],
+   "end": [
+    2,
+    12
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "]",
+   "start": [
+    2,
+    12
+   ],
+   "end": [
+    2,
+    13
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ",",
+   "start": [
+    2,
+    13
+   ],
+   "end": [
+    2,
+    14
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "nums",
+   "start": [
+    2,
+    15
+   ],
+   "end": [
+    2,
+    19
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "[",
+   "start": [
+    2,
+    19
+   ],
+   "end": [
+    2,
+    20
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "-",
+   "start": [
+    2,
+    20
+   ],
+   "end": [
+    2,
+    21
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "1",
+   "start": [
+    2,
+    21
+   ],
+   "end": [
+    2,
+    22
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "]",
+   "start": [
+    2,
+    22
+   ],
+   "end": [
+    2,
+    23
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ",",
+   "start": [
+    2,
+    23
+   ],
+   "end": [
+    2,
+    24
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "len",
+   "start": [
+    2,
+    25
+   ],
+   "end": [
+    2,
+    28
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "(",
+   "start": [
+    2,
+    28
+   ],
+   "end": [
+    2,
+    29
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "nums",
+   "start": [
+    2,
+    29
+   ],
+   "end": [
+    2,
+    33
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ")",
+   "start": [
+    2,
+    33
+   ],
+   "end": [
+    2,
+    34
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ")",
+   "start": [
+    2,
+    34
+   ],
+   "end": [
+    2,
+    35
+   ]
+  },
+  {
+   "type": "NEWLINE",
+   "string": "\n",
+   "start": [
+    2,
+    35
+   ],
+   "end": [
+    2,
+    36
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "for",
+   "start": [
+    3,
+    0
+   ],
+   "end": [
+    3,
+    3
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "n",
+   "start": [
+    3,
+    4
+   ],
+   "end": [
+    3,
+    5
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "in",
+   "start": [
+    3,
+    6
+   ],
+   "end": [
+    3,
+    8
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "nums",
+   "start": [
+    3,
+    9
+   ],
+   "end": [
+    3,
+    13
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ":",
+   "start": [
+    3,
+    13
+   ],
+   "end": [
+    3,
+    14
+   ]
+  },
+  {
+   "type": "NEWLINE",
+   "string": "\n",
+   "start": [
+    3,
+    14
+   ],
+   "end": [
+    3,
+    15
+   ]
+  },
+  {
+   "type": "INDENT",
+   "string": "    ",
+   "start": [
+    4,
+    0
+   ],
+   "end": [
+    4,
+    4
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "print",
+   "start": [
+    4,
+    4
+   ],
+   "end": [
+    4,
+    9
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "(",
+   "start": [
+    4,
+    9
+   ],
+   "end": [
+    4,
+    10
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "n",
+   "start": [
+    4,
+    10
+   ],
+   "end": [
+    4,
+    11
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "*",
+   "start": [
+    4,
+    12
+   ],
+   "end": [
+    4,
+    13
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "2",
+   "start": [
+    4,
+    14
+   ],
+   "end": [
+    4,
+    15
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ")",
+   "start": [
+    4,
+    15
+   ],
+   "end": [
+    4,
+    16
+   ]
+  },
+  {
+   "type": "NEWLINE",
+   "string": "\n",
+   "start": [
+    4,
+    16
+   ],
+   "end": [
+    4,
+    17
+   ]
+  },
+  {
+   "type": "DEDENT",
+   "string": "",
+   "start": [
+    5,
+    0
+   ],
+   "end": [
+    5,
+    0
+   ]
+  },
+  {
+   "type": "ENDMARKER",
+   "string": "",
+   "start": [
+    5,
+    0
+   ],
+   "end": [
+    5,
+    0
+   ]
+  }
+ ],
+ "ast": "Module(body=[Assign(targets=[Name(id='nums', ctx=Store())], value=List(elts=[Constant(value=3), Constant(value=1), Constant(value=4), Constant(value=1), Constant(value=5)], ctx=Load())), Expr(value=Call(func=Name(id='print', ctx=Load()), args=[Subscript(value=Name(id='nums', ctx=Load()), slice=Constant(value=0), ctx=Load()), Subscript(value=Name(id='nums', ctx=Load()), slice=UnaryOp(op=USub(), operand=Constant(value=1)), ctx=Load()), Call(func=Name(id='len', ctx=Load()), args=[Name(id='nums', ctx=Load())], keywords=[])], keywords=[])), For(target=Name(id='n', ctx=Store()), iter=Name(id='nums', ctx=Load()), body=[Expr(value=Call(func=Name(id='print', ctx=Load()), args=[BinOp(left=Name(id='n', ctx=Load()), op=Mult(), right=Constant(value=2))], keywords=[]))], orelse=[])], type_ignores=[])",
+ "dis": [
+  {
+   "op": "RESUME",
+   "line": 0,
+   "arg": 0
+  },
+  {
+   "op": "BUILD_LIST",
+   "line": 1,
+   "arg": 0
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "(3, 1, 4, 1, 5)"
+  },
+  {
+   "op": "LIST_EXTEND",
+   "line": null,
+   "arg": 1
+  },
+  {
+   "op": "STORE_NAME",
+   "line": null,
+   "name": "nums"
+  },
+  {
+   "op": "PUSH_NULL",
+   "line": 2
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": null,
+   "name": "print"
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": null,
+   "name": "nums"
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "0"
+  },
+  {
+   "op": "BINARY_SUBSCR",
+   "line": null
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": null,
+   "name": "nums"
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "-1"
+  },
+  {
+   "op": "BINARY_SUBSCR",
+   "line": null
+  },
+  {
+   "op": "PUSH_NULL",
+   "line": null
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": null,
+   "name": "len"
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": null,
+   "name": "nums"
+  },
+  {
+   "op": "PRECALL",
+   "line": null,
+   "arg": 1
+  },
+  {
+   "op": "CALL",
+   "line": null,
+   "arg": 1
+  },
+  {
+   "op": "PRECALL",
+   "line": null,
+   "arg": 3
+  },
+  {
+   "op": "CALL",
+   "line": null,
+   "arg": 3
+  },
+  {
+   "op": "POP_TOP",
+   "line": null
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": 3,
+   "name": "nums"
+  },
+  {
+   "op": "GET_ITER",
+   "line": null
+  },
+  {
+   "op": "FOR_ITER",
+   "line": null,
+   "target": 34
+  },
+  {
+   "op": "STORE_NAME",
+   "line": null,
+   "name": "n"
+  },
+  {
+   "op": "PUSH_NULL",
+   "line": 4
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": null,
+   "name": "print"
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": null,
+   "name": "n"
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "2"
+  },
+  {
+   "op": "BINARY_OP",
+   "line": null,
+   "arg": "*"
+  },
+  {
+   "op": "PRECALL",
+   "line": null,
+   "arg": 1
+  },
+  {
+   "op": "CALL",
+   "line": null,
+   "arg": 1
+  },
+  {
+   "op": "POP_TOP",
+   "line": null
+  },
+  {
+   "op": "JUMP_BACKWARD",
+   "line": null,
+   "target": 23
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": 3,
+   "const": "None"
+  },
+  {
+   "op": "RETURN_VALUE",
+   "line": null
+  }
+ ],
+ "run": {
+  "stdout": "3 5 5\n6\n2\n8\n2\n10\n",
+  "error": null
+ }
+}

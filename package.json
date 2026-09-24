@@ -1,0 +1,32 @@
+{
+  "name": "all-the-way-down",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Type one line of Python. Follow it all the way down: characters, bytes, tokens, syntax tree, bytecode, virtual machine, machine code, logic gates, transistors, and back up as light.",
+  "author": "Rishik Rontala",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 4173",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "e2e": "playwright test",
+    "goldens": "python3 scripts/goldens.py && bash scripts/riscv-goldens.sh"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.2",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.3",
+    "vitest": "^3.2.7"
+  },
+  "dependencies": {
+    "@fontsource-variable/anybody": "^5.3.0",
+    "@fontsource-variable/public-sans": "^5.3.0",
+    "@fontsource/fragment-mono": "^5.3.0",
+    "@phosphor-icons/core": "^2.1.1"
+  }
+}

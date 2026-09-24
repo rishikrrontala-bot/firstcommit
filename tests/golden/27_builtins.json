@@ -1,0 +1,478 @@
+{
+ "python": "3.11.15",
+ "source": "print(abs(-3), max(2, 9, 4), min(2, 9, 4))\n",
+ "tokens": [
+  {
+   "type": "NAME",
+   "string": "print",
+   "start": [
+    1,
+    0
+   ],
+   "end": [
+    1,
+    5
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "(",
+   "start": [
+    1,
+    5
+   ],
+   "end": [
+    1,
+    6
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "abs",
+   "start": [
+    1,
+    6
+   ],
+   "end": [
+    1,
+    9
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "(",
+   "start": [
+    1,
+    9
+   ],
+   "end": [
+    1,
+    10
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "-",
+   "start": [
+    1,
+    10
+   ],
+   "end": [
+    1,
+    11
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "3",
+   "start": [
+    1,
+    11
+   ],
+   "end": [
+    1,
+    12
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ")",
+   "start": [
+    1,
+    12
+   ],
+   "end": [
+    1,
+    13
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ",",
+   "start": [
+    1,
+    13
+   ],
+   "end": [
+    1,
+    14
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "max",
+   "start": [
+    1,
+    15
+   ],
+   "end": [
+    1,
+    18
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "(",
+   "start": [
+    1,
+    18
+   ],
+   "end": [
+    1,
+    19
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "2",
+   "start": [
+    1,
+    19
+   ],
+   "end": [
+    1,
+    20
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ",",
+   "start": [
+    1,
+    20
+   ],
+   "end": [
+    1,
+    21
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "9",
+   "start": [
+    1,
+    22
+   ],
+   "end": [
+    1,
+    23
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ",",
+   "start": [
+    1,
+    23
+   ],
+   "end": [
+    1,
+    24
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "4",
+   "start": [
+    1,
+    25
+   ],
+   "end": [
+    1,
+    26
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ")",
+   "start": [
+    1,
+    26
+   ],
+   "end": [
+    1,
+    27
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ",",
+   "start": [
+    1,
+    27
+   ],
+   "end": [
+    1,
+    28
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "min",
+   "start": [
+    1,
+    29
+   ],
+   "end": [
+    1,
+    32
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "(",
+   "start": [
+    1,
+    32
+   ],
+   "end": [
+    1,
+    33
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "2",
+   "start": [
+    1,
+    33
+   ],
+   "end": [
+    1,
+    34
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ",",
+   "start": [
+    1,
+    34
+   ],
+   "end": [
+    1,
+    35
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "9",
+   "start": [
+    1,
+    36
+   ],
+   "end": [
+    1,
+    37
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ",",
+   "start": [
+    1,
+    37
+   ],
+   "end": [
+    1,
+    38
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "4",
+   "start": [
+    1,
+    39
+   ],
+   "end": [
+    1,
+    40
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ")",
+   "start": [
+    1,
+    40
+   ],
+   "end": [
+    1,
+    41
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ")",
+   "start": [
+    1,
+    41
+   ],
+   "end": [
+    1,
+    42
+   ]
+  },
+  {
+   "type": "NEWLINE",
+   "string": "\n",
+   "start": [
+    1,
+    42
+   ],
+   "end": [
+    1,
+    43
+   ]
+  },
+  {
+   "type": "ENDMARKER",
+   "string": "",
+   "start": [
+    2,
+    0
+   ],
+   "end": [
+    2,
+    0
+   ]
+  }
+ ],
+ "ast": "Module(body=[Expr(value=Call(func=Name(id='print', ctx=Load()), args=[Call(func=Name(id='abs', ctx=Load()), args=[UnaryOp(op=USub(), operand=Constant(value=3))], keywords=[]), Call(func=Name(id='max', ctx=Load()), args=[Constant(value=2), Constant(value=9), Constant(value=4)], keywords=[]), Call(func=Name(id='min', ctx=Load()), args=[Constant(value=2), Constant(value=9), Constant(value=4)], keywords=[])], keywords=[]))], type_ignores=[])",
+ "dis": [
+  {
+   "op": "RESUME",
+   "line": 0,
+   "arg": 0
+  },
+  {
+   "op": "PUSH_NULL",
+   "line": 1
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": null,
+   "name": "print"
+  },
+  {
+   "op": "PUSH_NULL",
+   "line": null
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": null,
+   "name": "abs"
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "-3"
+  },
+  {
+   "op": "PRECALL",
+   "line": null,
+   "arg": 1
+  },
+  {
+   "op": "CALL",
+   "line": null,
+   "arg": 1
+  },
+  {
+   "op": "PUSH_NULL",
+   "line": null
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": null,
+   "name": "max"
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "2"
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "9"
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "4"
+  },
+  {
+   "op": "PRECALL",
+   "line": null,
+   "arg": 3
+  },
+  {
+   "op": "CALL",
+   "line": null,
+   "arg": 3
+  },
+  {
+   "op": "PUSH_NULL",
+   "line": null
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": null,
+   "name": "min"
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "2"
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "9"
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "4"
+  },
+  {
+   "op": "PRECALL",
+   "line": null,
+   "arg": 3
+  },
+  {
+   "op": "CALL",
+   "line": null,
+   "arg": 3
+  },
+  {
+   "op": "PRECALL",
+   "line": null,
+   "arg": 3
+  },
+  {
+   "op": "CALL",
+   "line": null,
+   "arg": 3
+  },
+  {
+   "op": "POP_TOP",
+   "line": null
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "None"
+  },
+  {
+   "op": "RETURN_VALUE",
+   "line": null
+  }
+ ],
+ "run": {
+  "stdout": "3 9 2\n",
+  "error": null
+ }
+}

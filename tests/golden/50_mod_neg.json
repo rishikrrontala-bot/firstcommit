@@ -1,0 +1,293 @@
+{
+ "python": "3.11.15",
+ "source": "print(-3 % 5, 3 % -5, -7 // 2.0)\n",
+ "tokens": [
+  {
+   "type": "NAME",
+   "string": "print",
+   "start": [
+    1,
+    0
+   ],
+   "end": [
+    1,
+    5
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "(",
+   "start": [
+    1,
+    5
+   ],
+   "end": [
+    1,
+    6
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "-",
+   "start": [
+    1,
+    6
+   ],
+   "end": [
+    1,
+    7
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "3",
+   "start": [
+    1,
+    7
+   ],
+   "end": [
+    1,
+    8
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "%",
+   "start": [
+    1,
+    9
+   ],
+   "end": [
+    1,
+    10
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "5",
+   "start": [
+    1,
+    11
+   ],
+   "end": [
+    1,
+    12
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ",",
+   "start": [
+    1,
+    12
+   ],
+   "end": [
+    1,
+    13
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "3",
+   "start": [
+    1,
+    14
+   ],
+   "end": [
+    1,
+    15
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "%",
+   "start": [
+    1,
+    16
+   ],
+   "end": [
+    1,
+    17
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "-",
+   "start": [
+    1,
+    18
+   ],
+   "end": [
+    1,
+    19
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "5",
+   "start": [
+    1,
+    19
+   ],
+   "end": [
+    1,
+    20
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ",",
+   "start": [
+    1,
+    20
+   ],
+   "end": [
+    1,
+    21
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "-",
+   "start": [
+    1,
+    22
+   ],
+   "end": [
+    1,
+    23
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "7",
+   "start": [
+    1,
+    23
+   ],
+   "end": [
+    1,
+    24
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "//",
+   "start": [
+    1,
+    25
+   ],
+   "end": [
+    1,
+    27
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "2.0",
+   "start": [
+    1,
+    28
+   ],
+   "end": [
+    1,
+    31
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ")",
+   "start": [
+    1,
+    31
+   ],
+   "end": [
+    1,
+    32
+   ]
+  },
+  {
+   "type": "NEWLINE",
+   "string": "\n",
+   "start": [
+    1,
+    32
+   ],
+   "end": [
+    1,
+    33
+   ]
+  },
+  {
+   "type": "ENDMARKER",
+   "string": "",
+   "start": [
+    2,
+    0
+   ],
+   "end": [
+    2,
+    0
+   ]
+  }
+ ],
+ "ast": "Module(body=[Expr(value=Call(func=Name(id='print', ctx=Load()), args=[BinOp(left=UnaryOp(op=USub(), operand=Constant(value=3)), op=Mod(), right=Constant(value=5)), BinOp(left=Constant(value=3), op=Mod(), right=UnaryOp(op=USub(), operand=Constant(value=5))), BinOp(left=UnaryOp(op=USub(), operand=Constant(value=7)), op=FloorDiv(), right=Constant(value=2.0))], keywords=[]))], type_ignores=[])",
+ "dis": [
+  {
+   "op": "RESUME",
+   "line": 0,
+   "arg": 0
+  },
+  {
+   "op": "PUSH_NULL",
+   "line": 1
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": null,
+   "name": "print"
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "2"
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "-2"
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "-4.0"
+  },
+  {
+   "op": "PRECALL",
+   "line": null,
+   "arg": 3
+  },
+  {
+   "op": "CALL",
+   "line": null,
+   "arg": 3
+  },
+  {
+   "op": "POP_TOP",
+   "line": null
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "None"
+  },
+  {
+   "op": "RETURN_VALUE",
+   "line": null
+  }
+ ],
+ "run": {
+  "stdout": "2 -2 -4.0\n",
+  "error": null
+ }
+}

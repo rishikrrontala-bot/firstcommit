@@ -1,0 +1,457 @@
+{
+ "python": "3.11.15",
+ "source": "x = 10\nx += 5\nx -= 3\nx *= 2\nx //= 4\nprint(x)\n",
+ "tokens": [
+  {
+   "type": "NAME",
+   "string": "x",
+   "start": [
+    1,
+    0
+   ],
+   "end": [
+    1,
+    1
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "=",
+   "start": [
+    1,
+    2
+   ],
+   "end": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "10",
+   "start": [
+    1,
+    4
+   ],
+   "end": [
+    1,
+    6
+   ]
+  },
+  {
+   "type": "NEWLINE",
+   "string": "\n",
+   "start": [
+    1,
+    6
+   ],
+   "end": [
+    1,
+    7
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "x",
+   "start": [
+    2,
+    0
+   ],
+   "end": [
+    2,
+    1
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "+=",
+   "start": [
+    2,
+    2
+   ],
+   "end": [
+    2,
+    4
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "5",
+   "start": [
+    2,
+    5
+   ],
+   "end": [
+    2,
+    6
+   ]
+  },
+  {
+   "type": "NEWLINE",
+   "string": "\n",
+   "start": [
+    2,
+    6
+   ],
+   "end": [
+    2,
+    7
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "x",
+   "start": [
+    3,
+    0
+   ],
+   "end": [
+    3,
+    1
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "-=",
+   "start": [
+    3,
+    2
+   ],
+   "end": [
+    3,
+    4
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "3",
+   "start": [
+    3,
+    5
+   ],
+   "end": [
+    3,
+    6
+   ]
+  },
+  {
+   "type": "NEWLINE",
+   "string": "\n",
+   "start": [
+    3,
+    6
+   ],
+   "end": [
+    3,
+    7
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "x",
+   "start": [
+    4,
+    0
+   ],
+   "end": [
+    4,
+    1
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "*=",
+   "start": [
+    4,
+    2
+   ],
+   "end": [
+    4,
+    4
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "2",
+   "start": [
+    4,
+    5
+   ],
+   "end": [
+    4,
+    6
+   ]
+  },
+  {
+   "type": "NEWLINE",
+   "string": "\n",
+   "start": [
+    4,
+    6
+   ],
+   "end": [
+    4,
+    7
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "x",
+   "start": [
+    5,
+    0
+   ],
+   "end": [
+    5,
+    1
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "//=",
+   "start": [
+    5,
+    2
+   ],
+   "end": [
+    5,
+    5
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "4",
+   "start": [
+    5,
+    6
+   ],
+   "end": [
+    5,
+    7
+   ]
+  },
+  {
+   "type": "NEWLINE",
+   "string": "\n",
+   "start": [
+    5,
+    7
+   ],
+   "end": [
+    5,
+    8
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "print",
+   "start": [
+    6,
+    0
+   ],
+   "end": [
+    6,
+    5
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "(",
+   "start": [
+    6,
+    5
+   ],
+   "end": [
+    6,
+    6
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "x",
+   "start": [
+    6,
+    6
+   ],
+   "end": [
+    6,
+    7
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ")",
+   "start": [
+    6,
+    7
+   ],
+   "end": [
+    6,
+    8
+   ]
+  },
+  {
+   "type": "NEWLINE",
+   "string": "\n",
+   "start": [
+    6,
+    8
+   ],
+   "end": [
+    6,
+    9
+   ]
+  },
+  {
+   "type": "ENDMARKER",
+   "string": "",
+   "start": [
+    7,
+    0
+   ],
+   "end": [
+    7,
+    0
+   ]
+  }
+ ],
+ "ast": "Module(body=[Assign(targets=[Name(id='x', ctx=Store())], value=Constant(value=10)), AugAssign(target=Name(id='x', ctx=Store()), op=Add(), value=Constant(value=5)), AugAssign(target=Name(id='x', ctx=Store()), op=Sub(), value=Constant(value=3)), AugAssign(target=Name(id='x', ctx=Store()), op=Mult(), value=Constant(value=2)), AugAssign(target=Name(id='x', ctx=Store()), op=FloorDiv(), value=Constant(value=4)), Expr(value=Call(func=Name(id='print', ctx=Load()), args=[Name(id='x', ctx=Load())], keywords=[]))], type_ignores=[])",
+ "dis": [
+  {
+   "op": "RESUME",
+   "line": 0,
+   "arg": 0
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": 1,
+   "const": "10"
+  },
+  {
+   "op": "STORE_NAME",
+   "line": null,
+   "name": "x"
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": 2,
+   "name": "x"
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "5"
+  },
+  {
+   "op": "BINARY_OP",
+   "line": null,
+   "arg": "+="
+  },
+  {
+   "op": "STORE_NAME",
+   "line": null,
+   "name": "x"
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": 3,
+   "name": "x"
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "3"
+  },
+  {
+   "op": "BINARY_OP",
+   "line": null,
+   "arg": "-="
+  },
+  {
+   "op": "STORE_NAME",
+   "line": null,
+   "name": "x"
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": 4,
+   "name": "x"
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "2"
+  },
+  {
+   "op": "BINARY_OP",
+   "line": null,
+   "arg": "*="
+  },
+  {
+   "op": "STORE_NAME",
+   "line": null,
+   "name": "x"
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": 5,
+   "name": "x"
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "4"
+  },
+  {
+   "op": "BINARY_OP",
+   "line": null,
+   "arg": "//="
+  },
+  {
+   "op": "STORE_NAME",
+   "line": null,
+   "name": "x"
+  },
+  {
+   "op": "PUSH_NULL",
+   "line": 6
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": null,
+   "name": "print"
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": null,
+   "name": "x"
+  },
+  {
+   "op": "PRECALL",
+   "line": null,
+   "arg": 1
+  },
+  {
+   "op": "CALL",
+   "line": null,
+   "arg": 1
+  },
+  {
+   "op": "POP_TOP",
+   "line": null
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "None"
+  },
+  {
+   "op": "RETURN_VALUE",
+   "line": null
+  }
+ ],
+ "run": {
+  "stdout": "6\n",
+  "error": null
+ }
+}

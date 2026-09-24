@@ -1,0 +1,224 @@
+{
+ "python": "3.11.15",
+ "source": "print(\"apple\" < \"banana\", \"a\" == \"a\")\n",
+ "tokens": [
+  {
+   "type": "NAME",
+   "string": "print",
+   "start": [
+    1,
+    0
+   ],
+   "end": [
+    1,
+    5
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "(",
+   "start": [
+    1,
+    5
+   ],
+   "end": [
+    1,
+    6
+   ]
+  },
+  {
+   "type": "STRING",
+   "string": "\"apple\"",
+   "start": [
+    1,
+    6
+   ],
+   "end": [
+    1,
+    13
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "<",
+   "start": [
+    1,
+    14
+   ],
+   "end": [
+    1,
+    15
+   ]
+  },
+  {
+   "type": "STRING",
+   "string": "\"banana\"",
+   "start": [
+    1,
+    16
+   ],
+   "end": [
+    1,
+    24
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ",",
+   "start": [
+    1,
+    24
+   ],
+   "end": [
+    1,
+    25
+   ]
+  },
+  {
+   "type": "STRING",
+   "string": "\"a\"",
+   "start": [
+    1,
+    26
+   ],
+   "end": [
+    1,
+    29
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "==",
+   "start": [
+    1,
+    30
+   ],
+   "end": [
+    1,
+    32
+   ]
+  },
+  {
+   "type": "STRING",
+   "string": "\"a\"",
+   "start": [
+    1,
+    33
+   ],
+   "end": [
+    1,
+    36
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ")",
+   "start": [
+    1,
+    36
+   ],
+   "end": [
+    1,
+    37
+   ]
+  },
+  {
+   "type": "NEWLINE",
+   "string": "\n",
+   "start": [
+    1,
+    37
+   ],
+   "end": [
+    1,
+    38
+   ]
+  },
+  {
+   "type": "ENDMARKER",
+   "string": "",
+   "start": [
+    2,
+    0
+   ],
+   "end": [
+    2,
+    0
+   ]
+  }
+ ],
+ "ast": "Module(body=[Expr(value=Call(func=Name(id='print', ctx=Load()), args=[Compare(left=Constant(value='apple'), ops=[Lt()], comparators=[Constant(value='banana')]), Compare(left=Constant(value='a'), ops=[Eq()], comparators=[Constant(value='a')])], keywords=[]))], type_ignores=[])",
+ "dis": [
+  {
+   "op": "RESUME",
+   "line": 0,
+   "arg": 0
+  },
+  {
+   "op": "PUSH_NULL",
+   "line": 1
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": null,
+   "name": "print"
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "'apple'"
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "'banana'"
+  },
+  {
+   "op": "COMPARE_OP",
+   "line": null,
+   "arg": "<"
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "'a'"
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "'a'"
+  },
+  {
+   "op": "COMPARE_OP",
+   "line": null,
+   "arg": "=="
+  },
+  {
+   "op": "PRECALL",
+   "line": null,
+   "arg": 2
+  },
+  {
+   "op": "CALL",
+   "line": null,
+   "arg": 2
+  },
+  {
+   "op": "POP_TOP",
+   "line": null
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "None"
+  },
+  {
+   "op": "RETURN_VALUE",
+   "line": null
+  }
+ ],
+ "run": {
+  "stdout": "True True\n",
+  "error": null
+ }
+}

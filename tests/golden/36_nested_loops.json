@@ -1,0 +1,506 @@
+{
+ "python": "3.11.15",
+ "source": "for i in range(3):\n    for j in range(2):\n        print(i, j)\n",
+ "tokens": [
+  {
+   "type": "NAME",
+   "string": "for",
+   "start": [
+    1,
+    0
+   ],
+   "end": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "i",
+   "start": [
+    1,
+    4
+   ],
+   "end": [
+    1,
+    5
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "in",
+   "start": [
+    1,
+    6
+   ],
+   "end": [
+    1,
+    8
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "range",
+   "start": [
+    1,
+    9
+   ],
+   "end": [
+    1,
+    14
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "(",
+   "start": [
+    1,
+    14
+   ],
+   "end": [
+    1,
+    15
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "3",
+   "start": [
+    1,
+    15
+   ],
+   "end": [
+    1,
+    16
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ")",
+   "start": [
+    1,
+    16
+   ],
+   "end": [
+    1,
+    17
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ":",
+   "start": [
+    1,
+    17
+   ],
+   "end": [
+    1,
+    18
+   ]
+  },
+  {
+   "type": "NEWLINE",
+   "string": "\n",
+   "start": [
+    1,
+    18
+   ],
+   "end": [
+    1,
+    19
+   ]
+  },
+  {
+   "type": "INDENT",
+   "string": "    ",
+   "start": [
+    2,
+    0
+   ],
+   "end": [
+    2,
+    4
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "for",
+   "start": [
+    2,
+    4
+   ],
+   "end": [
+    2,
+    7
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "j",
+   "start": [
+    2,
+    8
+   ],
+   "end": [
+    2,
+    9
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "in",
+   "start": [
+    2,
+    10
+   ],
+   "end": [
+    2,
+    12
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "range",
+   "start": [
+    2,
+    13
+   ],
+   "end": [
+    2,
+    18
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "(",
+   "start": [
+    2,
+    18
+   ],
+   "end": [
+    2,
+    19
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "2",
+   "start": [
+    2,
+    19
+   ],
+   "end": [
+    2,
+    20
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ")",
+   "start": [
+    2,
+    20
+   ],
+   "end": [
+    2,
+    21
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ":",
+   "start": [
+    2,
+    21
+   ],
+   "end": [
+    2,
+    22
+   ]
+  },
+  {
+   "type": "NEWLINE",
+   "string": "\n",
+   "start": [
+    2,
+    22
+   ],
+   "end": [
+    2,
+    23
+   ]
+  },
+  {
+   "type": "INDENT",
+   "string": "        ",
+   "start": [
+    3,
+    0
+   ],
+   "end": [
+    3,
+    8
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "print",
+   "start": [
+    3,
+    8
+   ],
+   "end": [
+    3,
+    13
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "(",
+   "start": [
+    3,
+    13
+   ],
+   "end": [
+    3,
+    14
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "i",
+   "start": [
+    3,
+    14
+   ],
+   "end": [
+    3,
+    15
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ",",
+   "start": [
+    3,
+    15
+   ],
+   "end": [
+    3,
+    16
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "j",
+   "start": [
+    3,
+    17
+   ],
+   "end": [
+    3,
+    18
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ")",
+   "start": [
+    3,
+    18
+   ],
+   "end": [
+    3,
+    19
+   ]
+  },
+  {
+   "type": "NEWLINE",
+   "string": "\n",
+   "start": [
+    3,
+    19
+   ],
+   "end": [
+    3,
+    20
+   ]
+  },
+  {
+   "type": "DEDENT",
+   "string": "",
+   "start": [
+    4,
+    0
+   ],
+   "end": [
+    4,
+    0
+   ]
+  },
+  {
+   "type": "DEDENT",
+   "string": "",
+   "start": [
+    4,
+    0
+   ],
+   "end": [
+    4,
+    0
+   ]
+  },
+  {
+   "type": "ENDMARKER",
+   "string": "",
+   "start": [
+    4,
+    0
+   ],
+   "end": [
+    4,
+    0
+   ]
+  }
+ ],
+ "ast": "Module(body=[For(target=Name(id='i', ctx=Store()), iter=Call(func=Name(id='range', ctx=Load()), args=[Constant(value=3)], keywords=[]), body=[For(target=Name(id='j', ctx=Store()), iter=Call(func=Name(id='range', ctx=Load()), args=[Constant(value=2)], keywords=[]), body=[Expr(value=Call(func=Name(id='print', ctx=Load()), args=[Name(id='i', ctx=Load()), Name(id='j', ctx=Load())], keywords=[]))], orelse=[])], orelse=[])], type_ignores=[])",
+ "dis": [
+  {
+   "op": "RESUME",
+   "line": 0,
+   "arg": 0
+  },
+  {
+   "op": "PUSH_NULL",
+   "line": 1
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": null,
+   "name": "range"
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "3"
+  },
+  {
+   "op": "PRECALL",
+   "line": null,
+   "arg": 1
+  },
+  {
+   "op": "CALL",
+   "line": null,
+   "arg": 1
+  },
+  {
+   "op": "GET_ITER",
+   "line": null
+  },
+  {
+   "op": "FOR_ITER",
+   "line": null,
+   "target": 26
+  },
+  {
+   "op": "STORE_NAME",
+   "line": null,
+   "name": "i"
+  },
+  {
+   "op": "PUSH_NULL",
+   "line": 2
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": null,
+   "name": "range"
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "2"
+  },
+  {
+   "op": "PRECALL",
+   "line": null,
+   "arg": 1
+  },
+  {
+   "op": "CALL",
+   "line": null,
+   "arg": 1
+  },
+  {
+   "op": "GET_ITER",
+   "line": null
+  },
+  {
+   "op": "FOR_ITER",
+   "line": null,
+   "target": 25
+  },
+  {
+   "op": "STORE_NAME",
+   "line": null,
+   "name": "j"
+  },
+  {
+   "op": "PUSH_NULL",
+   "line": 3
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": null,
+   "name": "print"
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": null,
+   "name": "i"
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": null,
+   "name": "j"
+  },
+  {
+   "op": "PRECALL",
+   "line": null,
+   "arg": 2
+  },
+  {
+   "op": "CALL",
+   "line": null,
+   "arg": 2
+  },
+  {
+   "op": "POP_TOP",
+   "line": null
+  },
+  {
+   "op": "JUMP_BACKWARD",
+   "line": null,
+   "target": 15
+  },
+  {
+   "op": "JUMP_BACKWARD",
+   "line": 2,
+   "target": 7
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": 1,
+   "const": "None"
+  },
+  {
+   "op": "RETURN_VALUE",
+   "line": null
+  }
+ ],
+ "run": {
+  "stdout": "0 0\n0 1\n1 0\n1 1\n2 0\n2 1\n",
+  "error": null
+ }
+}

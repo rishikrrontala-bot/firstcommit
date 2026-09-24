@@ -69,3 +69,19 @@ In practice an agent session moves faster than this; the table is the ceiling, n
 - The direction contract is in `.impeccable/surfaces/index-html.md`. The direction record and tokens are in `DESIGN.md`.
 - The world: each abstraction layer is a stratum in its official ICS/CGMW period colour (verified from pyrolite's `timecolors.csv`), with a borehole-log column as navigation. Type: Anybody (width compresses with depth), Public Sans, Fragment Mono. Every stratum's "first deposit" date was verified by web search (sources listed in DESIGN.md; ARCHITECTURE.md will carry the links).
 - Build path: code-led (no image generation in this environment).
+
+### Phase 5 (build) in progress · Wed Sep 23 · 11:00 PM EDT · ~162 h left
+**RESUME HERE if this session ends.** (Rishik asked for a save by 11:20 PM ET, when his credits run low.)
+
+Done so far in the build:
+- `tests/corpus/*.py`: 50 beginner programs (hello, arithmetic, floats, strings, f-strings, if/elif/else, while, for/range, lists, `in`, break/continue, augassign, builtins, emoji, big ints, constant folding, five runtime errors).
+- `scripts/goldens.py` → `tests/golden/*.json`: CPython 3.11's own `tokenize` tokens, `ast.dump`, `dis` bytecode (jump targets as instruction indexes, starts_line) and stdout/exceptions for every corpus program. **The TypeScript engine must reproduce these exactly.**
+- `package.json` (Vite 6, TypeScript 5, Vitest 3, Playwright 1.63; fonts Anybody, Public Sans, Fragment Mono; Phosphor icons), `tsconfig.json`, `vite.config.ts` (`base: './'`).
+
+Next steps, in order:
+1. `src/engine/values.ts` (Python values, repr/str, float repr rules, int ops with BigInt, floor div/mod semantics, CPython error messages).
+2. `src/engine/lexer.ts` (match `tokenize`: NAME/NUMBER/STRING/OP/NEWLINE/NL/COMMENT/INDENT/DEDENT/ENDMARKER, code-point columns).
+3. `src/engine/parser.ts` + `ast.ts` (recursive descent; `dump()` must equal `ast.dump`).
+4. `src/engine/compiler.ts`: port CPython 3.11 codegen + CFG passes (constant folding from ast_opt.c; NEXT_BLOCK after jumps; optimize_basic_block with jump_thread only when line numbers match; clean_basic_block NOP rules; extend_block MAX_COPY_SIZE=4; mark_reachable; duplicate_exits_without_lineno; propagate_line_numbers; normalize_jumps FORWARD/BACKWARD; RESUME line 0; starts_line = line changes in address order).
+5. `src/engine/vm.ts` (execute with trace, 10k step limit), then `riscv.ts` (RV32IM encoder + emulator; goldens from `llvm-mc -triple=riscv32 -mattr=+m -show-encoding`), `gates.ts` (ripple-carry adder, event timing), `cmos.ts` (NAND), `pipeline.ts`.
+6. Vitest suites comparing against the goldens. Then the UI (strata), e2e, CI, Pages.

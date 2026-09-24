@@ -1,0 +1,529 @@
+{
+ "python": "3.11.15",
+ "source": "print(2 + 3 * 4)\nprint((2 + 3) * 4)\nx = 60 * 60 * 24\nprint(x)\n",
+ "tokens": [
+  {
+   "type": "NAME",
+   "string": "print",
+   "start": [
+    1,
+    0
+   ],
+   "end": [
+    1,
+    5
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "(",
+   "start": [
+    1,
+    5
+   ],
+   "end": [
+    1,
+    6
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "2",
+   "start": [
+    1,
+    6
+   ],
+   "end": [
+    1,
+    7
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "+",
+   "start": [
+    1,
+    8
+   ],
+   "end": [
+    1,
+    9
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "3",
+   "start": [
+    1,
+    10
+   ],
+   "end": [
+    1,
+    11
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "*",
+   "start": [
+    1,
+    12
+   ],
+   "end": [
+    1,
+    13
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "4",
+   "start": [
+    1,
+    14
+   ],
+   "end": [
+    1,
+    15
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ")",
+   "start": [
+    1,
+    15
+   ],
+   "end": [
+    1,
+    16
+   ]
+  },
+  {
+   "type": "NEWLINE",
+   "string": "\n",
+   "start": [
+    1,
+    16
+   ],
+   "end": [
+    1,
+    17
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "print",
+   "start": [
+    2,
+    0
+   ],
+   "end": [
+    2,
+    5
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "(",
+   "start": [
+    2,
+    5
+   ],
+   "end": [
+    2,
+    6
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "(",
+   "start": [
+    2,
+    6
+   ],
+   "end": [
+    2,
+    7
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "2",
+   "start": [
+    2,
+    7
+   ],
+   "end": [
+    2,
+    8
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "+",
+   "start": [
+    2,
+    9
+   ],
+   "end": [
+    2,
+    10
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "3",
+   "start": [
+    2,
+    11
+   ],
+   "end": [
+    2,
+    12
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ")",
+   "start": [
+    2,
+    12
+   ],
+   "end": [
+    2,
+    13
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "*",
+   "start": [
+    2,
+    14
+   ],
+   "end": [
+    2,
+    15
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "4",
+   "start": [
+    2,
+    16
+   ],
+   "end": [
+    2,
+    17
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ")",
+   "start": [
+    2,
+    17
+   ],
+   "end": [
+    2,
+    18
+   ]
+  },
+  {
+   "type": "NEWLINE",
+   "string": "\n",
+   "start": [
+    2,
+    18
+   ],
+   "end": [
+    2,
+    19
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "x",
+   "start": [
+    3,
+    0
+   ],
+   "end": [
+    3,
+    1
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "=",
+   "start": [
+    3,
+    2
+   ],
+   "end": [
+    3,
+    3
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "60",
+   "start": [
+    3,
+    4
+   ],
+   "end": [
+    3,
+    6
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "*",
+   "start": [
+    3,
+    7
+   ],
+   "end": [
+    3,
+    8
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "60",
+   "start": [
+    3,
+    9
+   ],
+   "end": [
+    3,
+    11
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "*",
+   "start": [
+    3,
+    12
+   ],
+   "end": [
+    3,
+    13
+   ]
+  },
+  {
+   "type": "NUMBER",
+   "string": "24",
+   "start": [
+    3,
+    14
+   ],
+   "end": [
+    3,
+    16
+   ]
+  },
+  {
+   "type": "NEWLINE",
+   "string": "\n",
+   "start": [
+    3,
+    16
+   ],
+   "end": [
+    3,
+    17
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "print",
+   "start": [
+    4,
+    0
+   ],
+   "end": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "OP",
+   "string": "(",
+   "start": [
+    4,
+    5
+   ],
+   "end": [
+    4,
+    6
+   ]
+  },
+  {
+   "type": "NAME",
+   "string": "x",
+   "start": [
+    4,
+    6
+   ],
+   "end": [
+    4,
+    7
+   ]
+  },
+  {
+   "type": "OP",
+   "string": ")",
+   "start": [
+    4,
+    7
+   ],
+   "end": [
+    4,
+    8
+   ]
+  },
+  {
+   "type": "NEWLINE",
+   "string": "\n",
+   "start": [
+    4,
+    8
+   ],
+   "end": [
+    4,
+    9
+   ]
+  },
+  {
+   "type": "ENDMARKER",
+   "string": "",
+   "start": [
+    5,
+    0
+   ],
+   "end": [
+    5,
+    0
+   ]
+  }
+ ],
+ "ast": "Module(body=[Expr(value=Call(func=Name(id='print', ctx=Load()), args=[BinOp(left=Constant(value=2), op=Add(), right=BinOp(left=Constant(value=3), op=Mult(), right=Constant(value=4)))], keywords=[])), Expr(value=Call(func=Name(id='print', ctx=Load()), args=[BinOp(left=BinOp(left=Constant(value=2), op=Add(), right=Constant(value=3)), op=Mult(), right=Constant(value=4))], keywords=[])), Assign(targets=[Name(id='x', ctx=Store())], value=BinOp(left=BinOp(left=Constant(value=60), op=Mult(), right=Constant(value=60)), op=Mult(), right=Constant(value=24))), Expr(value=Call(func=Name(id='print', ctx=Load()), args=[Name(id='x', ctx=Load())], keywords=[]))], type_ignores=[])",
+ "dis": [
+  {
+   "op": "RESUME",
+   "line": 0,
+   "arg": 0
+  },
+  {
+   "op": "PUSH_NULL",
+   "line": 1
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": null,
+   "name": "print"
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "14"
+  },
+  {
+   "op": "PRECALL",
+   "line": null,
+   "arg": 1
+  },
+  {
+   "op": "CALL",
+   "line": null,
+   "arg": 1
+  },
+  {
+   "op": "POP_TOP",
+   "line": null
+  },
+  {
+   "op": "PUSH_NULL",
+   "line": 2
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": null,
+   "name": "print"
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "20"
+  },
+  {
+   "op": "PRECALL",
+   "line": null,
+   "arg": 1
+  },
+  {
+   "op": "CALL",
+   "line": null,
+   "arg": 1
+  },
+  {
+   "op": "POP_TOP",
+   "line": null
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": 3,
+   "const": "86400"
+  },
+  {
+   "op": "STORE_NAME",
+   "line": null,
+   "name": "x"
+  },
+  {
+   "op": "PUSH_NULL",
+   "line": 4
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": null,
+   "name": "print"
+  },
+  {
+   "op": "LOAD_NAME",
+   "line": null,
+   "name": "x"
+  },
+  {
+   "op": "PRECALL",
+   "line": null,
+   "arg": 1
+  },
+  {
+   "op": "CALL",
+   "line": null,
+   "arg": 1
+  },
+  {
+   "op": "POP_TOP",
+   "line": null
+  },
+  {
+   "op": "LOAD_CONST",
+   "line": null,
+   "const": "None"
+  },
+  {
+   "op": "RETURN_VALUE",
+   "line": null
+  }
+ ],
+ "run": {
+  "stdout": "14\n20\n86400\n",
+  "error": null
+ }
+}
