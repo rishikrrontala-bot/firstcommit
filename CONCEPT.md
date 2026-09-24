@@ -1,6 +1,6 @@
 # CONCEPT: All the Way Down
 
-**Event:** Beginner's Paradise – FirstCommit · **Lane:** open, a delightful, ambitious web experience · **Claimed:** Wed Sep 23 2026, 11:50 PM EDT
+**Event:** Beginner's Paradise – FirstCommit · **Lane:** open, a delightful, ambitious web experience · **Claimed:** Wed Sep 23 2026, 10:47 PM EDT
 
 **One line:** *Type one line of Python. Follow it all the way down.* Your code falls through every layer of the machine (characters, bytes, tokens, syntax tree, bytecode, virtual machine, machine code, logic gates, transistors) and comes back up as light on your screen.
 

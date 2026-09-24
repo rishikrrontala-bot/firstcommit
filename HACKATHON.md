@@ -5,7 +5,7 @@
 
 *Facts read from the live Devpost page on 2026-09-23. ⚠ = unconfirmed, so verify before relying on it.*
 
-**Re-verified 2026-09-23 11:40 PM EDT** (see `research/RESEARCH-BRIEF.md` for sources). `devpost.com` is blocked by this cloud environment's egress policy, so facts were cross-checked against the organizer's own GitHub (`github.com/Ur-FirstCommit`: event landing page, site data, blog), a participant's verbatim mirror of the Devpost rules, and search snippets of the Devpost page. Corrections and additions are marked **[verified]** or **[corrected]**.
+**Re-verified 2026-09-23 10:45 PM EDT** (see `research/RESEARCH-BRIEF.md` for sources). `devpost.com` is blocked by this cloud environment's egress policy, so facts were cross-checked against the organizer's own GitHub (`github.com/Ur-FirstCommit`: event landing page, site data, blog), a participant's verbatim mirror of the Devpost rules, and search snippets of the Devpost page. Corrections and additions are marked **[verified]** or **[corrected]**.
 
 ## Eligibility
 Ages 13–21, students only, global. Solo or team. **[verified]**

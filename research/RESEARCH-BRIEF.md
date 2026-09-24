@@ -1,6 +1,6 @@
 # Research brief: Beginner's Paradise – FirstCommit
 
-*Compiled Wed Sep 23 2026, 10:35–11:40 PM EDT (~162 h to the deadline). Every source is linked. Nothing below comes from memory alone.*
+*Compiled Wed Sep 23 2026, 10:35–10:45 PM EDT (~162 h to the deadline). Every source is linked. Nothing below comes from memory alone.*
 
 ## How this research was done (and its limits)
 

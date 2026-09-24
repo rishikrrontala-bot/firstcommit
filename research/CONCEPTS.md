@@ -1,6 +1,6 @@
 # Concepts: three candidates scored against the FirstCommit rubric
 
-*Scored Wed Sep 23 2026, ~11:45 PM EDT. Rishik delegated the pick (CLAUDE.md override), so the highest weighted score wins.*
+*Scored Wed Sep 23 2026, 10:45 PM EDT. Rishik delegated the pick (CLAUDE.md override), so the highest weighted score wins.*
 
 Inputs: [RESEARCH-BRIEF.md](RESEARCH-BRIEF.md) (winner pattern: *a familiar thing made physical, with real computation underneath*; FirstCommit's open lane: *learning made visible inside the product*), the sibling check (`scripts/siblings.sh`: only **Low Sun**, a sun-glare calendar, is claimed so far), Rishik's past projects (no study tool, no music, no sun/shade geometry, no eco dashboard), and the current FirstCommit field (git/commit games, productivity tools).
 
