@@ -10,6 +10,7 @@ Running log for the unattended cloud build. A resumed session reads this first a
 | When (ET) | Hours to deadline | Phase |
 |---|---|---|
 | Wed Sep 23 2026 · 10:34 PM EDT | 162.4 h | 0: kickoff, tools check |
+| Wed Sep 23 2026 · 11:55 PM EDT | 161.1 h | 2–3: research done, concept picked (All the Way Down) |
 
 ## Phase plan (budgeted backwards, hackathon-win Phase 4 table)
 
@@ -29,10 +30,10 @@ In practice an agent session moves faster than this; the table is the ceiling, n
 
 ## Phases
 
-- [ ] 0. Kickoff: countdown, PROGRESS.md
-- [ ] 1. Tools check
-- [ ] 2. Research: verify HACKATHON.md, 5–8 winner briefs, RESEARCH-BRIEF.md
-- [ ] 3. Concept: siblings check, CONCEPTS.md (3 × rubric), CONCEPT.md pushed
+- [x] 0. Kickoff: countdown, PROGRESS.md
+- [x] 1. Tools check
+- [x] 2. Research: verify HACKATHON.md, 5–8 winner briefs, RESEARCH-BRIEF.md
+- [x] 3. Concept: siblings check, CONCEPTS.md (3 × rubric), CONCEPT.md pushed
 - [ ] 4. Design direction: PRODUCT.md + DESIGN.md
 - [ ] 5. Build: wow moment, demo path, the rest; Vitest + Playwright + CI; Pages live
 - [ ] 6. Quality: critique → audit → polish; full tests; live-URL headless pass
@@ -50,3 +51,13 @@ In practice an agent session moves faster than this; the table is the ceiling, n
 - **ffmpeg:** none on the system; installed `imageio-ffmpeg` (ffmpeg 7.0.2 static, has libx264 + aac + libass `subtitles` filter) and symlinked to `/usr/local/bin/ffmpeg`.
 - **n8n:** `N8N_BASE_URL` is empty in this environment, so there is no n8n API access. Any n8n workflow ships as an importable `n8n/*.json` file with a HANDOFF step (only if the concept genuinely needs one).
 - 4 vCPU, 15 GB RAM, ~30 GB disk.
+
+### Phases 2–3 · Wed Sep 23 · 11:55 PM EDT · 161.1 h left
+- **Blocked hosts:** the environment's network policy denies `devpost.com`, `firstcommit.devpost.com`, YouTube, jsdelivr/unpkg CDNs, huggingface.co, web.archive.org. GitHub, npm, PyPI and fonts.googleapis.com work. WebSearch works. (Fix, if Rishik wants it: broaden Network access in the cloud environment's settings.)
+- **Workaround used for research:** event facts from the organizer's GitHub (`Ur-FirstCommit`: `bp-landingpage`, `landingpage/js/data.js`, `blog`), a participant's verbatim rules mirror, and search snippets. Winners from HackWinnerDB (Devpost-synced winner records, CC BY 4.0), each verified by cloning its repo. Details and limits are in `research/RESEARCH-BRIEF.md`.
+- **HACKATHON.md corrected:** Most Ambitious is $220 (not $292; the pool is $952); judging Oct 3, winners Oct 20; AI policy (disclose where AI helped, you must understand the code); core logic must be built during the event; the video should cover difficulties and what you learned.
+- **8 winner briefs** in `research/winners/` (PitchSide, DeepDive, UmbraCity, LoreLeaf, Harbour, MIX&MATCH!, ColorStorm, GiveFive).
+- **Siblings:** only practicetocreate has claimed a concept (Low Sun, a sun-glare calendar). No overlap.
+- **Concept picked:** **A. All the Way Down** (4.90), ahead of C. First Light (4.38) and B. Field Guide to Bugs (3.78). See `research/CONCEPTS.md`, `CONCEPT.md`.
+- **Key risk logged:** the AI policy. Mitigation: truthful disclosure, readable code, EXPLAIN-IT study guide, HANDOFF asks Rishik to personalise LEARNING.md and record the voiceover himself.
+- **Build log for LEARNING.md starts now:** `docs/BUILD-LOG.md` records real bugs and decisions as they happen (source for "field notes").

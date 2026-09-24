@@ -1,19 +1,26 @@
 # Beginner's Paradise – FirstCommit
 
 **Event page:** https://firstcommit.devpost.com/  ·  **Rules:** https://firstcommit.devpost.com/rules
-**Deadline:** **Wed Sep 30, 2026 · 5:00 PM EDT**  (`2026-09-30T17:00:00-04:00`)
+**Deadline:** **Wed Sep 30, 2026 · 5:00 PM EDT**  (`2026-09-30T17:00:00-04:00`) **[verified]**: the participant mirror gives 2026-10-01 05:00 China Standard Time, which is the same instant.
 
 *Facts read from the live Devpost page on 2026-09-23. ⚠ = unconfirmed, so verify before relying on it.*
 
+**Re-verified 2026-09-23 11:40 PM EDT** (see `research/RESEARCH-BRIEF.md` for sources). `devpost.com` is blocked by this cloud environment's egress policy, so facts were cross-checked against the organizer's own GitHub (`github.com/Ur-FirstCommit`: event landing page, site data, blog), a participant's verbatim mirror of the Devpost rules, and search snippets of the Devpost page. Corrections and additions are marked **[verified]** or **[corrected]**.
+
 ## Eligibility
-Ages 13–21, students only, global.
+Ages 13–21, students only, global. Solo or team. **[verified]**
+
+## Organizer
+**FirstCommit** (non-profit, fiscally hosted on Hack Club HCB; founder Harshil Arora). This is its first hackathon, so there are no prior editions. Judging **Oct 3, 2026**; winners announced **Oct 20, 2026** (organizer landing page). **[verified]**
 
 ## Theme
 “Your first project. Your first commit. Your future.” An open-ended, learning-focused hackathon.
 
 ## Prizes
+Pool **$952** plus in-kind prizes (.xyz domain, DevSwarm and Linear Pro subscriptions, certificates). **[corrected]** Most Ambitious is **$220**, not $292: the participant mirror's table sums to the stated $952 pool only with $220. ⚠ Confirm on the live page.
+
 - Beginner's Paradise Champion $292
-- Most Ambitious Project $292
+- Most Ambitious Project $220
 - Most Creative Idea $120
 - Best Web/App Experience $120
 - Best Design $120
@@ -29,6 +36,9 @@ Ages 13–21, students only, global.
 - **Demo video, 3–5 minutes**
 - README with setup instructions
 - Recommended: live deployment, screenshots, technologies list, presentation slides
+- **[verified]** The core logic must be built during the hackathon (existing libraries, frameworks and templates are fine).
+- **[verified]** The video should show the features, how it works, the technologies, the difficulties met and **what you learned**.
+- **[verified] AI policy:** AI tools are allowed and encouraged as learning aids (brainstorming, debugging, helper code), but you **can't hand the entire project to AI**, you must **genuinely understand** your code, and you must **state in the project description where AI helped**.
 
 ## Judging criteria
 
@@ -38,6 +48,8 @@ Ages 13–21, students only, global.
 | Creativity & Impact | 25% |
 | Technical Execution | 25% |
 | Presentation & Communication | 20% |
+
+**[verified]** by Devpost search snippets, the participant mirror and a second participant's README.
 
 ## Event-specific deliverables (on top of CLAUDE.md's Definition of done)
 - `docs/LEARNING.md`: an honest learning journal of the build (what was new, what broke, what changed and why), written as a draft for Rishik to personalise. Never invent experiences.
